@@ -28,7 +28,9 @@ const HeroSection = () => {
           MORPH <span className="text-primary">MIND & BODY</span>
         </span>
         <a
-          href="#apply"
+          href="https://calendly.com/mona-morphmindandbody/30min"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-block px-6 py-2.5 border border-primary/40 text-sm font-body font-medium tracking-widest uppercase text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
         >
           Apply Now
@@ -81,7 +83,9 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 1.3 }}
           >
             <a
-              href="#apply"
+              href="https://calendly.com/mona-morphmindandbody/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-primary text-primary-foreground font-body font-semibold text-sm tracking-widest uppercase text-center hover:opacity-90 transition-opacity"
             >
               Apply for Coaching
