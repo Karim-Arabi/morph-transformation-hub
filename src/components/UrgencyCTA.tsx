@@ -25,13 +25,17 @@ const UrgencyCTA = () => {
           <ScrollReveal delay={0.4}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#apply"
+                href="https://calendly.com/mona-morphmindandbody/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-10 py-5 bg-primary text-primary-foreground font-body font-semibold text-sm tracking-widest uppercase hover:opacity-90 transition-opacity"
               >
                 Apply for Coaching
               </a>
               <a
-                href="#apply"
+                href="https://calendly.com/mona-morphmindandbody/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-10 py-5 border border-foreground/20 text-foreground font-body font-medium text-sm tracking-widest uppercase hover:border-primary hover:text-primary transition-all duration-300"
               >
                 Message Me
