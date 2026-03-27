@@ -54,7 +54,7 @@
     --gold: 38 60% 65%;
 
     --font-display: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-body: 'Avenir', 'Avenir Next', 'Helvetica Neue', sans-serif;
   }
 
   .dark {

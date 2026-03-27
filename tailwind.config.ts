@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ["Playfair Display", "serif"],
-        body: ["Inter", "sans-serif"],
+        body: ["Avenir", "Avenir Next", "Helvetica Neue", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
