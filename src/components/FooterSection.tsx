@@ -21,7 +21,7 @@ const FooterSection = () => {
 
             <div className="flex items-center gap-8">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/morphmindandbody/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-body text-sm text-muted-foreground hover:text-primary transition-colors tracking-widest uppercase"
