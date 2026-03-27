@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import logo from "@/assets/logo.png";
 
 const FooterSection = () => {
   return (
@@ -7,9 +8,12 @@ const FooterSection = () => {
         <ScrollReveal>
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <span className="font-display text-xl font-semibold text-foreground tracking-wide block mb-2">
-                MORPH <span className="text-primary">MIND & BODY</span>
-              </span>
+              <div className="flex items-center gap-3 mb-2">
+                <img src={logo} alt="Morph Mind & Body logo" className="h-8 w-auto" />
+                <span className="font-display text-xl font-semibold text-foreground tracking-wide">
+                  MORPH <span className="text-primary">MIND & BODY</span>
+                </span>
+              </div>
               <p className="font-body text-sm text-muted-foreground italic">
                 Be Bold. Be Strong. Be Unstoppable.
               </p>

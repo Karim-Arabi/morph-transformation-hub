@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
@@ -24,9 +25,12 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <span className="font-display text-xl md:text-2xl font-semibold tracking-wide text-foreground">
-          MORPH <span className="text-primary">MIND & BODY</span>
-        </span>
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="Morph Mind & Body logo" className="h-8 md:h-10 w-auto" />
+          <span className="font-display text-xl md:text-2xl font-semibold tracking-wide text-foreground">
+            MORPH <span className="text-primary">MIND & BODY</span>
+          </span>
+        </div>
         <a
           href="https://calendly.com/mona-morphmindandbody/30min"
           target="_blank"
