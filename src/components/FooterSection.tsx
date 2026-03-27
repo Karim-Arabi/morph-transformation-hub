@@ -29,6 +29,14 @@ const FooterSection = () => {
                 Instagram
               </a>
               <a
+                href="https://www.facebook.com/morphmindandbody"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-body text-sm text-muted-foreground hover:text-primary transition-colors tracking-widest uppercase"
+              >
+                Facebook
+              </a>
+              <a
                 href="mailto:Mona@morphmindandbody.com"
                 className="font-body text-sm text-muted-foreground hover:text-primary transition-colors tracking-widest uppercase"
               >
