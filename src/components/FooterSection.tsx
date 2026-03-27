@@ -29,7 +29,7 @@ const FooterSection = () => {
                 Instagram
               </a>
               <a
-                href="mailto:hello@morphmindandbody.com"
+                href="mailto:Mona@morphmindandbody.com"
                 className="font-body text-sm text-muted-foreground hover:text-primary transition-colors tracking-widest uppercase"
               >
                 Contact
