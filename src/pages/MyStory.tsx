@@ -27,6 +27,12 @@ const MyStory = () => {
           >
             My Story
           </Link>
+          <Link
+            to="/blog"
+            className="text-sm font-body font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
+          >
+            Blog
+          </Link>
           <a
             href="https://calendly.com/mona-morphmindandbody/30min"
             target="_blank"
