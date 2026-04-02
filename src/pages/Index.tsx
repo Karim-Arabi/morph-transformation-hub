@@ -7,6 +7,7 @@ import OfferSection from "@/components/OfferSection";
 import WhyThisWorks from "@/components/WhyThisWorks";
 import ObjectionHandling from "@/components/ObjectionHandling";
 import UrgencyCTA from "@/components/UrgencyCTA";
+import AppDownloadSection from "@/components/AppDownloadSection";
 import FooterSection from "@/components/FooterSection";
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
       <OfferSection />
       <WhyThisWorks />
       <ObjectionHandling />
+      <AppDownloadSection />
       <UrgencyCTA />
       <FooterSection />
     </main>
