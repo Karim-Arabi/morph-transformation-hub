@@ -33,18 +33,18 @@ const HeroSection = () => {
           </span>
         </div>
         <div className="flex items-center gap-6">
-          <a
-            href="/my-story"
+          <Link
+            to="/my-story"
             className="hidden md:inline-block text-sm font-body font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
           >
             My Story
-          </a>
-          <a
-            href="/blog"
+          </Link>
+          <Link
+            to="/blog"
             className="hidden md:inline-block text-sm font-body font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
           >
             Blog
-          </a>
+          </Link>
           <a
             href="https://calendly.com/mona-morphmindandbody/30min"
             target="_blank"
