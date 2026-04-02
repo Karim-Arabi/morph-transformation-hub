@@ -70,6 +70,7 @@ const MyStory = () => {
               />
             </motion.div>
 
+            <motion.div
               className="space-y-8 font-body text-lg leading-relaxed text-muted-foreground"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
