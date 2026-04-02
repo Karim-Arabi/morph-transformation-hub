@@ -66,7 +66,7 @@ const MyStory = () => {
               <img
                 src={storyImage}
                 alt="Mona - Health Coach and Personal Trainer"
-                className="w-full h-auto max-h-[500px] object-cover"
+                className="w-full h-auto"
               />
             </motion.div>
 
