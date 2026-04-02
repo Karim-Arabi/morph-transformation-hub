@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
+import storyImage from "@/assets/my-story.avif";
 import FooterSection from "@/components/FooterSection";
 
 const MyStory = () => {
