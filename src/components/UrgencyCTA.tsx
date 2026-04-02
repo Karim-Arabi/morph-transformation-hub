@@ -9,7 +9,7 @@ const UrgencyCTA = () => {
       <div className="editorial-width relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
-            <h2 className="font-body text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Six Months From Now…
               <br />
               <span className="text-gradient italic">You'll Wish You Started Today.</span>

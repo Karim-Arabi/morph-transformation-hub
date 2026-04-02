@@ -25,7 +25,7 @@ const AuthoritySection = () => {
               <span className="font-body text-xs tracking-[0.3em] text-primary uppercase mb-4 block">
                 Your Coach
               </span>
-              <h2 className="font-body text-4xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
                 I Don't Just Coach This.{" "}
                 <span className="text-gradient italic">I Live It.</span>
               </h2>
@@ -44,7 +44,7 @@ const AuthoritySection = () => {
             </ScrollReveal>
 
             <ScrollReveal delay={0.4}>
-              <p className="font-body text-xl text-foreground italic">
+              <p className="font-display text-xl text-foreground italic">
                 You've done the starting over part.
                 <br />
                 Now it's time to do it differently.

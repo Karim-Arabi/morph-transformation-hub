@@ -25,7 +25,7 @@ const Transformations = () => {
       <div className="editorial-width">
         <ScrollReveal>
           <div className="text-center mb-16 md:mb-24">
-            <h2 className="font-body text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
               Real Women. <span className="text-gradient italic">Real Change.</span>
             </h2>
             <div className="w-16 h-px bg-primary mx-auto mt-6" />
@@ -36,8 +36,8 @@ const Transformations = () => {
           {testimonials.map((t, i) => (
             <ScrollReveal key={i} delay={i * 0.12}>
               <div className="relative p-8 md:p-10 bg-card border border-border/30 group hover:border-primary/30 transition-colors duration-500">
-                <span className="absolute top-6 left-8 font-body text-6xl text-primary/10 leading-none">"</span>
-                <blockquote className="font-body text-xl md:text-2xl text-foreground italic leading-relaxed mb-4 relative z-10">
+                <span className="absolute top-6 left-8 font-display text-6xl text-primary/10 leading-none">"</span>
+                <blockquote className="font-display text-xl md:text-2xl text-foreground italic leading-relaxed mb-4 relative z-10">
                   {t.quote}
                 </blockquote>
                 <p className="font-body text-sm text-muted-foreground">

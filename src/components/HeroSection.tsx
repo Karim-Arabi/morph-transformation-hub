@@ -27,7 +27,7 @@ const HeroSection = () => {
       >
         <div className="flex items-center gap-3">
           <img src={logo} alt="Morph Mind & Body logo" className="h-8 md:h-10 w-auto" />
-          <span className="font-body text-xl md:text-2xl font-semibold tracking-wide text-foreground">
+          <span className="font-display text-xl md:text-2xl font-semibold tracking-wide text-foreground">
             MORPH <span className="text-primary">MIND & BODY</span>
           </span>
         </div>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           />
 
           <motion.h1
-            className="font-body text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground mb-6"
+            className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-foreground mb-6"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}

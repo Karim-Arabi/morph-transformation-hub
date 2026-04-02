@@ -10,7 +10,7 @@ const FooterSection = () => {
             <div>
               <div className="flex items-center gap-3 mb-2">
                 <img src={logo} alt="Morph Mind & Body logo" className="h-8 w-auto" />
-                <span className="font-body text-xl font-semibold text-foreground tracking-wide">
+                <span className="font-display text-xl font-semibold text-foreground tracking-wide">
                   MORPH <span className="text-primary">MIND & BODY</span>
                 </span>
               </div>

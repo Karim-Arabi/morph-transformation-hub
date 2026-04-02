@@ -16,7 +16,7 @@ const MyStory = () => {
       >
         <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="Morph Mind & Body logo" className="h-8 md:h-10 w-auto" />
-          <span className="font-body text-xl md:text-2xl font-semibold tracking-wide text-foreground">
+          <span className="font-display text-xl md:text-2xl font-semibold tracking-wide text-foreground">
             MORPH <span className="text-primary">MIND & BODY</span>
           </span>
         </Link>

@@ -6,7 +6,7 @@ const CoreMessage = () => {
       <div className="editorial-width">
         <div className="max-w-3xl mx-auto text-center">
           <ScrollReveal>
-            <h2 className="font-body text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               This Isn't About{" "}
               <span className="text-gradient italic">Motivation.</span>
             </h2>
@@ -29,7 +29,7 @@ const CoreMessage = () => {
           </ScrollReveal>
 
           <ScrollReveal delay={0.5}>
-            <p className="font-body text-2xl md:text-3xl text-foreground font-medium italic">
+            <p className="font-display text-2xl md:text-3xl text-foreground font-medium italic">
               Morph Mind and Body is where that changes.
             </p>
           </ScrollReveal>
