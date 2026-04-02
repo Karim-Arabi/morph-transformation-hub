@@ -58,20 +58,42 @@ const MyStory = () => {
             </motion.h1>
 
             <motion.div
-              className="space-y-8 font-body text-lg leading-relaxed text-muted-foreground"
+              className="space-y-6 font-body text-lg leading-relaxed text-muted-foreground"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <p>
-                Hello! I'm a certified Health Coach and an ACE-certified Personal Trainer, passionate about the transformative power of fitness and wellness. My journey in this field is deeply personal; I've found solace and strength in fitness during challenging times, experiencing firsthand how exercise can fortify both the mind and body. Over the years, my commitment to health and fitness has been unwavering, driven by a goal to live a long, healthy life.
+                I'm a certified Health Coach and ACE-certified Personal Trainer, but more importantly… I've lived this.
               </p>
               <p>
-                My path to becoming a Health Coach was serendipitous, but it instantly resonated with my desire to empower others in taking control of their health and, by extension, their lives. I have a special focus on training women over forty, drawing from my personal experiences to relate and adapt to their unique needs.
+                I know what it's like to feel stuck in your body.<br />
+                To start over more times than you can count.<br />
+                To think you need to be "perfect" to see results… and then burn out.
               </p>
               <p>
-                Join me in this journey towards a healthier, stronger you. Whether you're looking to start your fitness journey, navigate the complexities of menopause, or simply find a supportive community, I'm here to guide and inspire you every step of the way.
+                For years, I was stuck in that all-or-nothing cycle.<br />
+                Do everything right… fall off… start again Monday.
               </p>
+              <p className="italic text-foreground">Sound familiar?</p>
+              <p>
+                What I've learned, both through my own journey and coaching other women, is this:
+              </p>
+              <p className="text-foreground font-medium">
+                It's not about doing more.<br />
+                It's about doing the right things consistently.
+              </p>
+              <p>
+                I work primarily with women who are ready to stop making excuses and actually change. Women who are tired of feeling uncomfortable in their own skin, frustrated with their progress, and unsure of what actually works anymore… especially as their bodies change.
+              </p>
+              <p>
+                This isn't about quick fixes.<br />
+                It's about building something that lasts.
+              </p>
+              <p>
+                If you're ready to take control, get stronger, and finally feel confident again…
+              </p>
+              <p className="text-primary font-semibold">I'll help you get there.</p>
             </motion.div>
 
             <motion.div
