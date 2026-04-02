@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
+import storyImage from "@/assets/my-story.avif";
 import FooterSection from "@/components/FooterSection";
 
 const MyStory = () => {
@@ -55,6 +56,19 @@ const MyStory = () => {
             >
               My <span className="text-gradient">Story</span>
             </motion.h1>
+
+            <motion.div
+              className="my-12 rounded-lg overflow-hidden"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+            >
+              <img
+                src={storyImage}
+                alt="Mona - Health Coach and Personal Trainer"
+                className="w-full h-auto max-h-[500px] object-cover"
+              />
+            </motion.div>
 
             <motion.div
               className="space-y-8 font-body text-lg leading-relaxed text-muted-foreground"
