@@ -52,7 +52,11 @@ const AppDownloadSection = () => {
                 href="https://play.google.com/store/apps/details?id=com.morphmindandbody.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block hover:opacity-80 transition-opacity"
+                className="inline-block hover:opacity-80 transition-opacity cursor-pointer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open("https://play.google.com/store/apps/details?id=com.morphmindandbody.app", "_blank");
+                }}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
