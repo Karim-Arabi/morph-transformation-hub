@@ -39,6 +39,12 @@ const HeroSection = () => {
             My Story
           </a>
           <a
+            href="/blog"
+            className="hidden md:inline-block text-sm font-body font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
+          >
+            Blog
+          </a>
+          <a
             href="https://calendly.com/mona-morphmindandbody/30min"
             target="_blank"
             rel="noopener noreferrer"
