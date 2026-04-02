@@ -31,14 +31,22 @@ const HeroSection = () => {
             MORPH <span className="text-primary">MIND & BODY</span>
           </span>
         </div>
-        <a
-          href="https://calendly.com/mona-morphmindandbody/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:inline-block px-6 py-2.5 border border-primary/40 text-sm font-body font-medium tracking-widest uppercase text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-        >
-          Apply Now
-        </a>
+        <div className="flex items-center gap-6">
+          <a
+            href="/my-story"
+            className="hidden md:inline-block text-sm font-body font-medium tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
+          >
+            My Story
+          </a>
+          <a
+            href="https://calendly.com/mona-morphmindandbody/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:inline-block px-6 py-2.5 border border-primary/40 text-sm font-body font-medium tracking-widest uppercase text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          >
+            Apply Now
+          </a>
+        </div>
       </motion.nav>
 
       {/* Content */}
