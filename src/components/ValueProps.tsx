@@ -34,7 +34,7 @@ const ValueProps = () => {
                 <span className="font-body text-xs tracking-[0.3em] text-primary mb-4 block">
                   {prop.number}
                 </span>
-                <h3 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">
+                <h3 className="font-body text-2xl md:text-3xl font-semibold text-foreground mb-4">
                   {prop.title}
                 </h3>
                 <p className="font-body text-muted-foreground leading-relaxed">
