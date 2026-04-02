@@ -48,7 +48,7 @@ const MyStory = () => {
               className="h-px bg-primary mx-auto mb-8"
             />
             <motion.h1
-              className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-12 text-center"
+              className="font-body text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-12 text-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
