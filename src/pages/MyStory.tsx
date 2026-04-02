@@ -58,19 +58,6 @@ const MyStory = () => {
             </motion.h1>
 
             <motion.div
-              className="my-12 rounded-lg overflow-hidden"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              <img
-                src={storyImage}
-                alt="Mona - Health Coach and Personal Trainer"
-                className="w-full h-auto"
-              />
-            </motion.div>
-
-            <motion.div
               className="space-y-8 font-body text-lg leading-relaxed text-muted-foreground"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -85,6 +72,19 @@ const MyStory = () => {
               <p>
                 Join me in this journey towards a healthier, stronger you. Whether you're looking to start your fitness journey, navigate the complexities of menopause, or simply find a supportive community, I'm here to guide and inspire you every step of the way.
               </p>
+            </motion.div>
+
+            <motion.div
+              className="mt-12 rounded-lg overflow-hidden"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+            >
+              <img
+                src={storyImage}
+                alt="Mona - Health Coach and Personal Trainer"
+                className="w-full h-auto"
+              />
             </motion.div>
           </div>
         </div>
