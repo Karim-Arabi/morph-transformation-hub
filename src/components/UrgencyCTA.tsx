@@ -18,7 +18,7 @@ const UrgencyCTA = () => {
 
           <ScrollReveal delay={0.2}>
             <p className="font-body text-lg text-muted-foreground mb-12">
-              You can keep waiting—or you can start changing.
+              You can keep waiting—or you can finally take control.
             </p>
           </ScrollReveal>
 
